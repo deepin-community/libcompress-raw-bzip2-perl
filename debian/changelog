@@ -1,0 +1,369 @@
+libcompress-raw-bzip2-perl (2.101-1) unstable; urgency=medium
+
+  * Import upstream version 2.101.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 21 Feb 2021 00:16:43 +0100
+
+libcompress-raw-bzip2-perl (2.100-1) unstable; urgency=medium
+
+  * Import upstream version 2.100.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 09 Jan 2021 22:39:39 +0100
+
+libcompress-raw-bzip2-perl (2.096-1) unstable; urgency=medium
+
+  * Import upstream version 2.096.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 01 Aug 2020 12:38:46 +0200
+
+libcompress-raw-bzip2-perl (2.095-1) unstable; urgency=medium
+
+  * Import upstream version 2.095.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 20 Jul 2020 23:46:02 +0200
+
+libcompress-raw-bzip2-perl (2.094-1) unstable; urgency=medium
+
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+  * Import upstream version 2.094.
+  * Update years of upstream and packaging copyright.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 13 Jul 2020 22:47:46 +0200
+
+libcompress-raw-bzip2-perl (2.093-1) unstable; urgency=medium
+
+  * Team upload.
+
+  * New upstream version 2.093
+
+ -- Nick Morrott <nickm@debian.org>  Sat, 07 Dec 2019 21:18:13 +0000
+
+libcompress-raw-bzip2-perl (2.092-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 2.092
+  * d/control: Add Rules-Requires-Root field
+  * d/copyright: Sort header stanza
+  * d/u/metadata: Add Bug-Submit field
+
+ -- Nick Morrott <nickm@debian.org>  Thu, 05 Dec 2019 14:35:05 +0000
+
+libcompress-raw-bzip2-perl (2.090-1) unstable; urgency=medium
+
+  * Import upstream version 2.090.
+  * Fix typo in previous changelog entry.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 10 Nov 2019 13:55:35 +0100
+
+libcompress-raw-bzip2-perl (2.089-1) unstable; urgency=medium
+
+  * Import upstream version 2.089.
+  * Update copyright years for third-party files.
+  * Make build dependency on libbz2-dev versioned to match version of
+    embedded (and unused) Bzip2.
+  * Update Build-Depends for cross builds.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 03 Nov 2019 23:06:51 +0100
+
+libcompress-raw-bzip2-perl (2.087-1) unstable; urgency=medium
+
+  * Import upstream version 2.087.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Aug 2019 00:55:00 +0200
+
+libcompress-raw-bzip2-perl (2.086-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Utkarsh Gupta ]
+  * New upstream version 2.086
+  * Bump compat to 12, Standards-Version to 4.4.0
+
+  [ gregor herrmann ]
+  * Update debian/upstream/metadata.
+  * Move Multi-Arch from source to binary package.
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Tue, 16 Jul 2019 21:03:24 +0530
+
+libcompress-raw-bzip2-perl (2.084-1) unstable; urgency=medium
+
+  * Import upstream version 2.084.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 11 Jan 2019 20:03:24 +0100
+
+libcompress-raw-bzip2-perl (2.083-1) unstable; urgency=medium
+
+  * Email change: Xavier Guimard -> yadd@debian.org
+  * Import upstream version 2.083
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Add Multi-Arch: same
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 02 Jan 2019 23:12:52 +0100
+
+libcompress-raw-bzip2-perl (2.081-1) unstable; urgency=medium
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Xavier Guimard ]
+  * Import upstream version 2.081
+  * Declare compliance with Debian Policy 4.1.4
+  * Bump debhelper compatibility level to 10
+  * Update debian/copyright years
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sat, 14 Apr 2018 09:29:38 +0200
+
+libcompress-raw-bzip2-perl (2.074-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Bas Zoetekouw from Uploaders. Thanks for your work!
+
+  [ Nick Morrott ]
+  * Import upstream version 2.070
+  * debian/copyright: update copyright years
+  * debian/upstream/metadata: add Bug-* fields
+  * debian/control: declare compliance with Debian policy 3.9.8
+  * debian/rules: enable bindnow hardening
+
+  [ gregor herrmann ]
+  * Import upstream version 2.074
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 17 Jun 2017 22:50:17 +0200
+
+libcompress-raw-bzip2-perl (2.069-1) unstable; urgency=medium
+
+  * Import upstream version 2.069
+  * Update years of upstream copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 05 Oct 2015 18:01:41 +0200
+
+libcompress-raw-bzip2-perl (2.068-1) unstable; urgency=medium
+
+  * Import upstream version 2.068
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.6.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 06 May 2015 21:25:04 +0200
+
+libcompress-raw-bzip2-perl (2.066-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Niko Tyni ]
+  * Add debian/upstream/metadata
+  * Imported upstream version 2.066 (no code changes)
+  * Mark as autopkgtestable.
+
+ -- Niko Tyni <ntyni@debian.org>  Mon, 22 Sep 2014 22:52:19 +0300
+
+libcompress-raw-bzip2-perl (2.064-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update years of copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 12 Feb 2014 19:07:10 +0100
+
+libcompress-raw-bzip2-perl (2.063-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 04 Nov 2013 18:20:12 +0100
+
+libcompress-raw-bzip2-perl (2.062-1) unstable; urgency=low
+
+  [ Florian Schlichting ]
+  * Import Upstream version 2.062
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 05 Oct 2013 20:20:31 +0200
+
+libcompress-raw-bzip2-perl (2.061-1) unstable; urgency=low
+
+  * Imported Upstream version 2.061
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sat, 01 Jun 2013 08:14:25 +0200
+
+libcompress-raw-bzip2-perl (2.060-1) unstable; urgency=low
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+
+  [ gregor herrmann ]
+  * Lowercase 'Level' in short description. Thanks to Vincent Lefevre for
+    catching this typo. (Closes: #698806)
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Xavier Guimard ]
+  * Imported Upstream version 2.060
+  * Bump Standards-Version to 3.9.4 (no changes)
+  * Update debian/copyright (years and format)
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 04 May 2013 19:58:08 +0200
+
+libcompress-raw-bzip2-perl (2.055-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders
+
+ -- Alessandro Ghedini <ghedo@debian.org>  Tue, 07 Aug 2012 21:44:03 +0200
+
+libcompress-raw-bzip2-perl (2.052-1) unstable; urgency=low
+
+  [ Alessandro Ghedini ]
+  * New upstream release (2.049)
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 2.052
+
+  [ gregor herrmann ]
+  * Use debhelper 9.20120312 to get all hardening flags.
+  * Bump Standards-Version to 3.9.3 (no changes).
+  * debian/copyright: update to Copyright-Format 1.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 May 2012 14:39:40 +0200
+
+libcompress-raw-bzip2-perl (2.048-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * Switch to debhelper compatibility level 9 to pass CFLAGS to
+    Makefile.PL/Build.PL.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 30 Jan 2012 22:36:15 +0100
+
+libcompress-raw-bzip2-perl (2.045-1) unstable; urgency=low
+
+  * New upstream release.
+  * FAQ.pod was removed upstream, remove installation from debian/rules.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 07 Dec 2011 17:44:49 +0100
+
+libcompress-raw-bzip2-perl (2.043-1) unstable; urgency=low
+
+  * Team upload
+  * New upstream release
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Tue, 22 Nov 2011 15:35:50 +0100
+
+libcompress-raw-bzip2-perl (2.040-1) unstable; urgency=low
+
+  * Team upload
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Tue, 01 Nov 2011 16:31:46 +0100
+
+libcompress-raw-bzip2-perl (2.037-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 03 Jul 2011 16:19:15 +0200
+
+libcompress-raw-bzip2-perl (2.036-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 19 Jun 2011 17:51:09 +0200
+
+libcompress-raw-bzip2-perl (2.035-1) unstable; urgency=low
+
+  * New upstream release.
+  * Install FAQ as manpage (closes: #578983).
+  * Set Standards-Version to 3.9.2 (no changes).
+  * debian/control: refer to libio-compress-perl package in long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 14 May 2011 15:02:42 +0200
+
+libcompress-raw-bzip2-perl (2.033-1) unstable; urgency=low
+
+  * Move under the umbrella of the Debian Perl Group with maintainer's
+    permission (cf. http://bugs.debian.org/577989)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza). Changed: Maintainer set to Debian Perl Group
+    <pkg-perl-maintainers@lists.alioth.debian.org> (was: Bas Zoetekouw
+    <bas@debian.org>); Bas Zoetekouw <bas@debian.org> moved to
+    Uploaders.
+  * debian/watch: update to ignore development releases.
+
+  * New upstream release (closes: #577989).
+  * Add /me to Uploaders.
+  * Switch to debhelper 8.
+  * Set Standards-Version to 3.9.1; remove version from perl build dependency.
+  * Don't install README anymore.
+  * Minimize debian/rules.
+  * Update debian/copyright (formatting, years of copyright, third-party
+    files).
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 17 Mar 2011 22:09:21 +0100
+
+libcompress-raw-bzip2-perl (2.024-1) unstable; urgency=low
+
+  * New upstream release
+    (Closes: #561808)
+  * Added ${misc:Depends} to dependencies
+  * Bumped standards-version to 3.8.4 (no changes needed)
+  * Converted to 3.0 (quilt) source format
+
+ -- Bas Zoetekouw <bas@debian.org>  Wed, 10 Feb 2010 10:06:40 +0100
+
+libcompress-raw-bzip2-perl (2.020-1) unstable; urgency=low
+
+  * New upstream release: only minor changes
+  * Updated standards-version to 3.8.2 (no changes needed)
+
+ -- Bas Zoetekouw <bas@debian.org>  Tue, 30 Jun 2009 11:55:03 +0200
+
+libcompress-raw-bzip2-perl (2.015-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated standards-version to 3.8.0 (no changes needed)
+  * Removed Bzip2.bs (empty file with ancient timestamp)
+
+ -- Bas Zoetekouw <bas@debian.org>  Sun, 23 Nov 2008 15:39:16 +0100
+
+libcompress-raw-bzip2-perl (2.011-2) unstable; urgency=low
+
+  * Fix the binary-arch target.
+
+ -- Bas Zoetekouw <bas@debian.org>  Tue, 10 Jun 2008 09:57:56 +0200
+
+libcompress-raw-bzip2-perl (2.011-1) unstable; urgency=low
+
+  * Initial Release  (closes: #482051)
+
+ -- Bas Zoetekouw <bas@debian.org>  Tue, 20 May 2008 15:37:57 +0200

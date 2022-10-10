@@ -1,0 +1,4 @@
+version=4
+
+https://metacpan.org/release/Compress-Raw-Bzip2   \
+		.*/Compress-Raw-Bzip2-v?@ANY_VERSION@@ARCHIVE_EXT@$

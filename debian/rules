@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	BUILD_BZIP2=0 BZIP2_INCLUDE= BZIP2_LIB= dh_auto_configure
