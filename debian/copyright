@@ -4,7 +4,7 @@ Upstream-Contact: Paul Marquess <pmqs@cpan.org>
 Upstream-Name: Compress-Raw-Bzip2
 
 Files: *
-Copyright: 2005-2021, Paul Marquess <pmqs@cpan.org>
+Copyright: 2005-2023, Paul Marquess <pmqs@cpan.org>
 License: Artistic or GPL-1+
 
 Files: bzip2-src/*
@@ -28,7 +28,7 @@ License: Artistic or GPL-1+
 
 Files: debian/*
 Copyright: 2008-2010, Bas Zoetekouw <bas@debian.org>
- 2011-2021, gregor herrmann <gregoa@debian.org>
+ 2011-2023, gregor herrmann <gregoa@debian.org>
  2011-2012, Alessandro Ghedini <ghedo@debian.org>
  2012-2018, Xavier Guimard <yadd@debian.org>
 License: BSD-other or Artistic or GPL-1+
