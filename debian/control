@@ -6,11 +6,11 @@ Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               libbz2-dev (>= 1.0.8),
+               libbz2-dev,
                libtest-pod-perl <!nocheck>,
                perl-xs-dev,
                perl:native
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libcompress-raw-bzip2-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libcompress-raw-bzip2-perl.git
 Homepage: https://metacpan.org/release/Compress-Raw-Bzip2

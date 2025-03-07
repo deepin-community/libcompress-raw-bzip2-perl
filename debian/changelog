@@ -1,3 +1,42 @@
+libcompress-raw-bzip2-perl (2.213-1) unstable; urgency=medium
+
+  * Import upstream version 2.213.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 31 Aug 2024 17:28:49 +0200
+
+libcompress-raw-bzip2-perl (2.212-1) unstable; urgency=medium
+
+  * Import upstream version 2.212.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Apr 2024 23:25:10 +0200
+
+libcompress-raw-bzip2-perl (2.211-1) unstable; urgency=medium
+
+  * Import upstream version 2.211.
+  * Declare compliance with Debian Policy 4.7.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 07 Apr 2024 17:30:44 +0200
+
+libcompress-raw-bzip2-perl (2.210-1) unstable; urgency=medium
+
+  * Import upstream version 2.210.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Mar 2024 01:17:55 +0100
+
+libcompress-raw-bzip2-perl (2.209-1) unstable; urgency=medium
+
+  * Import upstream version 2.209.
+  * Drop unneeded version constraints from (build) dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Feb 2024 18:17:07 +0100
+
+libcompress-raw-bzip2-perl (2.208-1) unstable; urgency=medium
+
+  * Import upstream version 2.208.
+  * Update years of upstream and packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 19 Feb 2024 21:02:11 +0100
+
 libcompress-raw-bzip2-perl (2.206-1) unstable; urgency=medium
 
   * Import upstream version 2.206.
